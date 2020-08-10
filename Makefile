@@ -34,7 +34,8 @@ SRCS	=		ft_memset.c			\
 				ft_putnbr_fd.c		\
 				ft_strsjoin.c		\
 				ft_strsdup.c		\
-				ft_str_upper.c
+				ft_str_upper.c		\
+				ft_gnl.c
 BONUS_SRCS =	ft_lstnew.c			\
 				ft_lstadd_front.c	\
 				ft_lstsize.c		\

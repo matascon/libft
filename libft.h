@@ -16,6 +16,7 @@
 # include <stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <fcntl.h>
 
 typedef struct	s_list
 {
@@ -89,5 +90,6 @@ t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),\
 char			*ft_strsjoin(char *s1, char *s2, int free_s1, int free_s2);
 char			*ft_strsdup(char *s, int free_str);
 char			*ft_str_upper(char *str);
+int				ft_gnl(int fd, char **line);
 
 #endif
